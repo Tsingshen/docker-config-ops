@@ -1,6 +1,11 @@
-###vi /etc/docker/daemon.json
+###vi /etc/docker/daemon.json  只对新建的容器生效
 
 {
   "log-driver": "json-file",
-  "log-opts": { "max-size": "100m","max-file": "3" }
+  "log-opts": {"max-size": "100m", "max-file": "3"}
 }
+
+
+###重启docker
+systemctl daemon-reload
+systemctl restart docker
