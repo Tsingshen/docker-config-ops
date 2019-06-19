@@ -1,7 +1,9 @@
 ### config of docker-deamon can be set in daemon.json 
 
 ### also you use the startup option --config-file to change the default config in daemon.json
-on the page https://docs.docker.com/engine/reference/commandline/dockerd/
+# https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-configuration-file
+# https://docs.docker.com/engine/reference/commandline/dockerd/#options
+# on the page https://docs.docker.com/engine/reference/commandline/dockerd/
 
 ### the full example of the allowed configuration options on Linux: （the annotation is not allowed in json file）
 {
